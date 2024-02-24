@@ -40,7 +40,7 @@ public class Server {
         }
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Server server = new Server(6666);
     }
 

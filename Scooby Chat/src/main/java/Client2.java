@@ -1,13 +1,13 @@
 import java.net.*;
 import java.io.*;
 
-public class Client {
+public class Client2 {
 
     private Socket socket;
     private BufferedReader input;
     private DataOutputStream out;
 
-    public Client(String address, int port) {
+    public Client2(String address, int port) {
 
         try {
             socket = new Socket(address, port);
